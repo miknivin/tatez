@@ -548,8 +548,9 @@
                       class="form-input"
                       id="cust-contact-phone"
                       type="tel"
+                      pattern="[0-9]*"
                       name="phone"
-                      data-constraints="@Required"
+                      data-constraints="@Phone @Required"
                     />
                     <label class="form-label" for="cust-contact-phone">Phone</label>
                   </div>
